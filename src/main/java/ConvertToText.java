@@ -1,12 +1,8 @@
-package com.example.myapplication;
-
 import java.util.Stack;
 
-public class IntoText {
+public class ConvertToText {
 
     private enum Ranges {UNITS, DECADES, HUNDREDS, THOUSANDS, MILLIONS, BILLIONS}
-
-    ;
 
     private static Stack<ThreeChar> threeChars;
 
@@ -211,3 +207,4 @@ public class IntoText {
         return s + "надцать";
     }
 }
+
